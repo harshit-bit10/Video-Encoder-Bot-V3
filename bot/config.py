@@ -12,7 +12,7 @@ class Config(object):
     APP_ID = int(get_config("APP_ID", 7603458))
     API_HASH = get_config("API_HASH", "910e420f1f74f40305a684a331dade35")
     LOG_CHANNEL = get_config("-1002368843413")
-    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", SharkToonsIndia) # Without `@` LOL
+    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", "SharkToonsIndia") # Without `@` LOL
      # Get these values from my.telegram.org
     AUTH_USERS = set(
         int(x) for x in get_config(
